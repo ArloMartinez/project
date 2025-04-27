@@ -1,3 +1,5 @@
 nav ul li {
+ width: 145px;
     list-style-type: none;
+    float: left;
 }
