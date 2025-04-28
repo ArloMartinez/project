@@ -133,13 +133,13 @@ h2 {
   /* Alignment on plant pages */
   .plant-container {
     display: flex;
-    align-items: center; /* vertically center image and text */
-    gap: 20px; /* space between image and text */
-    margin-bottom: 30px; /* space under the whole block */
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
 }
 
 .plant-container img {
-    width: 300px; /* adjust the image size as you like */
+    width: 300px; 
     height: auto;
     border-radius: 10px;
 }
