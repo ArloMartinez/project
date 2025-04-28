@@ -72,3 +72,24 @@ h2 {
     line-height: 1.6; /* makes paragraphs easier to read */
     color: #333; /* optional: a softer black for better readability */
   }
+
+  .plant {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* space between image and text */
+    margin-bottom: 40px; /* space between plants */
+  }
+  
+  .plant img {
+    width: 300px; /* adjust size as needed */
+    height: auto;
+    border-radius: 10px; /* optional, makes images slightly rounded */
+  }
+  
+  .plant div {
+    max-width: 600px; /* control text width */
+  }
+  
+  .plant h1, .plant p, .plant a {
+    margin: 5px 0;
+  }
