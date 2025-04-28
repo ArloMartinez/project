@@ -170,3 +170,12 @@ h2 {
 .plant-description {
     max-width: 600px; /* controls width of text */
 }
+
+/* Center paragraph in index page */
+.center-paragraph {
+  text-align: center;
+  max-width: 800px; /* optional: keeps it from being too wide */
+  margin: 0 auto;   /* centers it horizontally */
+  font-size: 18px;  /* optional: slightly bigger text if you want */
+  line-height: 1.6; /* optional: better readability */
+}
