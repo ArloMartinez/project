@@ -110,9 +110,8 @@ h2 {
   }
 
   p {
-    font-size: 20px; /* or any size you prefer */
-    line-height: 1.6; /* makes paragraphs easier to read */
-    color: #333; /* optional: a softer black for better readability */
+    font-size: 20px; 
+    line-height: 1.6;
   }
 
   /* Alignment plants in Home page */
