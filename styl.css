@@ -155,7 +155,19 @@ h2 {
   }
 
   /* Alignment on plant pages */
-  .plant-description p {
-    font-size: 16px;
-    line-height: 1.6;
+  .plant-container {
+    display: flex;
+    align-items: center; /* vertically center image and text */
+    gap: 20px; /* space between image and text */
+    margin-bottom: 30px; /* space under the whole block */
+}
+
+.plant-container img {
+    width: 300px; /* adjust the image size as you like */
+    height: auto;
+    border-radius: 10px; /* optional: make image corners rounded */
+}
+
+.plant-description {
+    max-width: 600px; /* controls width of text */
 }
