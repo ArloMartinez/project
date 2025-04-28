@@ -3,6 +3,7 @@ body {
     background-color: rgb(221, 245, 201);
 }
 
+/* Navigation bar */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -10,7 +11,7 @@ nav ul {
     display: flex;
     flex-wrap: wrap; /* Allow items to move to the next line if screen is small */
     justify-content: center; /* Center the items */
-    background-color: #333; /* Dark background */
+    background-color: #005c23; /* Dark background */
   }
   
   nav ul li {
