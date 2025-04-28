@@ -3,8 +3,48 @@ body {
     background-color: rgb(221, 245, 201);
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to move to the next line if screen is small */
+    justify-content: center; /* Center the items */
+    background-color: #333; /* Dark background */
+  }
+  
+  nav ul li {
+    margin: 5px 10px;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  
+  /* Responsive behavior */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    nav ul li {
+      width: 100%;
+      text-align: center;
+    }
+  }
 
 
+/*
   nav ul {
     list-style-type: none;
     background-color: #1b7542;
@@ -74,23 +114,41 @@ h2 {
     color: #333; /* optional: a softer black for better readability */
   }
 
-  .plant {
+  /* Alignment plants in Home page */
+
+  .plant-row {
     display: flex;
     align-items: center;
-    gap: 20px; /* space between image and text */
-    margin-bottom: 40px; /* space between plants */
+    margin: 30px 0;
+    gap: 20px;
   }
   
-  .plant img {
-    width: 300px; /* adjust size as needed */
+  .plant-row img {
+    max-width: 40%;
     height: auto;
-    border-radius: 10px; /* optional, makes images slightly rounded */
+    border-radius: 10px;
   }
   
-  .plant div {
-    max-width: 600px; /* control text width */
+  .plant-text {
+    max-width: 55%;
   }
   
-  .plant h1, .plant p, .plant a {
-    margin: 5px 0;
+  .plant-row.reverse {
+    flex-direction: row-reverse; /* Swap image and text */
+  }
+  
+  /* Alignment for phone view */
+
+  @media (max-width: 768px) {
+    .plant-row {
+      flex-direction: column;
+    }
+    
+    .plant-row.reverse {
+      flex-direction: column;
+    }
+    
+    .plant-text, .plant-row img {
+      max-width: 90%;
+    }
   }
