@@ -9,9 +9,9 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    flex-wrap: wrap; /* Allow items to move to the next line if screen is small */
-    justify-content: center; /* Center the items */
-    background-color: #005c23; /* Dark background */
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1b7542;
   }
   
   nav ul li {
