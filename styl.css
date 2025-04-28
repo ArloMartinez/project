@@ -148,6 +148,18 @@ h2 {
     max-width: 600px;
 }
 
+/* Plant pages phone view */
+@media (max-width: 768px) {
+  .plant-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .plant-description {
+    max-width: 90%;
+  }
+}
+
 /* Center paragraph in index page */
 .center-paragraph {
   text-align: center;
